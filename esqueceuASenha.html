@@ -16,33 +16,47 @@
        
     <body>
             <header>
-                <h1>login-helper</h1>
+                <h1>Esqueçeu a senha?</h1>
             </header>
             <main>
                 <form>
                  <section class="inputs-container">
-                    <label  class="legenda" for="email">E-mail</label>
+                    <label  class="legenda" for="email">Digite o E-mail cadastrado</label>
                     <input type="email" id="email" placeholder="exemplo@gmail.com">
                     
                     <div class="passoword-container">
-                        <input type="password" id="fileld-passwoed" class="fileld-passwoed" placeholder="*************">
-                        <i class="fa-solid fa-eye" id="eye" onclick="showsemnha()"></i>
-                        <i class="fa-solid fa-eye-slash" id="eye-slash" onclick="showsemnha()"></i>
+                        <label for="Telefone">Digite o numero de telefone cadastrado</label>
+                        <input type="tel" id="Telefone" class="fileld-passwoed" placeholder="(00) 0.000-000.00">
                      </div>
+
+                     <div class="passoword-container">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" class="fileld-passwoed" 
+                        placeholder="Ex: Lucas Pereira de Souza">
+                    </div>
+                    <button id="btn-login">Dados cadastrados</button>
+
+                    <div class="passoword-container">
+                        <label for="nome">Codigo</label>
+                        <input type="text" id="nome" class="fileld-passwoed" 
+                        placeholder="Digite o codigo que você recebeu no E-mail ou telefone">
+                    </div>
+
                 </section>
 
-                 <section class="pasoword-ifons">
+                <section class="pasoword-ifons">
+                   
                     <div>
-                        <input type="checkbox">
-                        <samp>Lembar senha</samp>
+                        <input type="checkbox" required>
+                        <samp>recebeu o codigo?</samp>
                     </div>
-                    <a href="./esqueceuASenha.html">esqueceu sua senha</a>
+                </section>
 
                  </section>
-                    <button id="btn-login">login</button>
+                    <button id="btn-login">Enviar codigo</button>
 
                  <section class="links-container">
-                    <span>ou entre com</span>
+                    <span class="redes">ou entre com</span>
                     <aside>
                         <a href="#"><i class="fa-brands fa-google-plus-square google"></i></a>
                         <a href="#"><i class="fa-brands fa-linkedin linkedin"></i></a>

@@ -20,7 +20,7 @@ header h1{
 }    
 main{
     width: 100%;
-    min-height: 100vh;
+    min-height: 140vh;
     background: linear-gradient(to left,#18acfe,#0166e1);
 
     display: flex;
@@ -28,9 +28,9 @@ main{
     box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.25);
 }
 main form{
-    margin-top: 5%;
+    margin-top: 1%;
     width: 35%;
-    height: 85vh;
+    height: 110%;
     background-color: #383c38 ;
     box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.4) inset 0px 4px 4px rgba(0, 0, 0, 0.25) ;
     border-radius: 18px;
@@ -41,6 +41,13 @@ main form{
     align-items: center;
 
 }
+.from{
+    
+    height: 120vh;
+}
+option{
+    color: #383c38;
+}
 main form .inputs-container{
     margin-top: 10%;
     width: 100%;
@@ -50,9 +57,9 @@ main form .inputs-container{
     align-items: center;
 
 }
-main form .inputs-container input{
+main form .inputs-container input, select{
     width: 90%;
-    height: 45px;
+    height: 50px;
     padding: 8px 15px;
     border: 0;
     outline: 0;
@@ -130,7 +137,7 @@ main form .links-container{
     margin-top: 10%;
 }
 main form .links-container span{
-    font-size: 0.8em;
+    font-size: 1.0em;
     font-weight: 600;
 }
 main form .links-container aside{
@@ -206,3 +213,4 @@ main form a:hover{
     color: #14a0f9;
 
 }
+

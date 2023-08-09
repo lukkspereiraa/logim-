@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>login-helper</title>
+            <link rel="stylesheet" href="./css/staily.css">
+            <script src="./js/index.js" defer></script>
+
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+            <script src="https://kit.fontawesome.com/c608591c71.js" crossorigin="anonymous" defer></script>
+    </head>
+       
+    <body>
+            <header>
+                <h1>Campo de cadastro</h1>
+            </header>
+            <main>
+                <form class="from">
+                 <section class="inputs-container">
+                    <label  class="legenda" for="email">E-mail</label>
+                    <input type="email" id="email" placeholder="exemplo@gmail.com">
+                    
+                    <div class="passoword-container">
+                        <label for="nome">Nome completo</label>
+                        <input type="text" id="nome" class="fileld-passwoed" 
+                        placeholder="Ex: Lucas Pereira de Souza">
+                    </div>
+
+                    <div class="passoword-container">
+                        <label for="Data">Data de naciemto</label>
+                        <input type="date" id="Data" class="fileld-passwoed" 
+                        placeholder="">
+                    </div>
+
+                    <div class="passoword-container">
+                    <label for="numero">Telefone para contato</label>
+                    <input type="tel" id="numero" class="fileld-passwoed" 
+                    placeholder="(00) 0.0000-000">
+                    </div>
+
+
+                    <div class="passoword-container">
+                        <label for="fileld-passwoed">Senha</label>
+                        <input type="password" id="fileld-passwoed" class="fileld-passwoed" placeholder="*************">
+                     </div>
+
+                     <div class="passoword-container">
+                        <label for="notificacoes">Como deseija receber notificações?</label>
+                        <select class="fileld-passwoed" id="notificacoes">
+                            <option value="email">E-mail</option>
+                            <option value="Ligacao">Ligaçao</option>
+                            <option value="mensagem">Mensagem de texto</option>
+                        </select>
+                     </div>
+               
+                </section>
+                
+                <section class="pasoword-ifons">
+                    <div class="genero">
+                    <label for="sexy">Qual seu genero:</label>
+                        <input name="sexy"  id="sexy" type="radio" required>
+                        <label>Mascolino</label>
+                        <input name="sexy"  id="sexy" type="radio" required>
+                        <label>Feminino</label>
+                        <input name="sexy" id="nao_decalrado" type="radio" required>
+                        <label>Prefiro não declarar</label>
+                    </div>
+                </section>
+            
+                 <section class="pasoword-ifons">
+                    <div>
+                        <input type="checkbox" required>
+                        <samp>Concorda com os termos de uso?</samp>
+                    </div>
+                </section>
+                <button id="btn-login">Cadastar</button>
+                 <section class="links-container">
+                </section>
+                    <footer>
+                        <hr>
+                        <samp>já esta cadatrado?<a href="./index.html">faça logim</a></samp>
+
+                    </footer>
+                </form>
+            </main>
+
+        </body>
+</html>
