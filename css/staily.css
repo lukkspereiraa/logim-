@@ -213,4 +213,15 @@ main form a:hover{
     color: #14a0f9;
 
 }
+.botao-voltar{
+    font-size: 4vh;
+    position: absolute;
+    left: 35%;
+}
+.botao-voltar:hover{
+    background-color: #ffff;
+    border-radius: 50px;
+    transition: all, 0,6s;
+    
+}
 
